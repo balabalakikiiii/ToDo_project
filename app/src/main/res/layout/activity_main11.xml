@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <com.example.myapplication1.CountDownProgressBar
+        android:id="@+id/cpb_countdown"
+        android:layout_width="400dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        app:countDown_centerTextSize="30dp"
+        app:countDown_circleWidth="6dp"
+        app:countDown_firstColor="@color/teal_200"
+        app:countDown_secondColor="@color/green"
+        app:countDown_isShowGradient="true"
+        app:countDown_centerTextColor="#2395FF"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="开始" />
+
+    <Button
+        android:id="@+id/btn_ownclock"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="自定义时长" />
+</LinearLayout>
+
+
+
+

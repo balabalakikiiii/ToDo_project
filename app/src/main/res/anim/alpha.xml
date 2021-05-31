@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="1"
+        android:toAlpha="0"/>
+
+    <!-- 旋转  从0度旋转720 pivot  以基点（中心点）  -->
+    <rotate
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="720"
+
+        />
+    <!-- 缩放  从1到0.5  从原始状态，缩放一半，以父布局中心为基点  -->
+    <scale
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.5"
+        android:toYScale="0.5" />
+
+    <!-- 平移  从屏幕外 平移到屏幕内，注意以布局的左上角（坐标0，0）为基点  -->
+    <translate
+        android:fromXDelta="-100%"
+        android:fromYDelta="-100%"
+        android:toXDelta="0"
+        android:toYDelta="0"></translate>
+
+</set>

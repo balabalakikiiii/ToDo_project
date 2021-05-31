@@ -1,0 +1,338 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFFFFF"
+android:gravity="top|center"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:shadowColor="@color/Gray"
+        android:shadowDx="6.0"
+        android:shadowDy="6.0"
+        android:shadowRadius="3.0"
+        android:singleLine="true"
+        android:text="@string/tv_one"
+        android:textColor="@color/teal_700"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+    android:id="@+id/btn_day01"
+    android:layout_width="325dp"
+    android:layout_height="66dp"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:background="@drawable/shapedrawable"
+    android:textStyle="italic|bold"
+    android:text="Day  01" />
+
+    <Button
+    android:id="@+id/btn_day02"
+    android:layout_width="325dp"
+    android:layout_height="66dp"
+    android:layout_marginTop="10dp"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:background="@drawable/shapedrawable2"
+    android:textStyle="italic|bold"
+    android:text="Day  02" />
+
+    <Button
+        android:id="@+id/btn_day03"
+        android:layout_width="325dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@drawable/shapedrawable3"
+        android:textStyle="italic|bold"
+        android:text="Day  03" />
+
+    <Button
+        android:id="@+id/btn_day04"
+        android:layout_width="325dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@drawable/shapedrawable4"
+        android:textStyle="italic|bold"
+        android:text="Day  04" />
+
+    <Button
+        android:id="@+id/btn_day05"
+        android:layout_width="325dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@drawable/shapedrawable5"
+        android:textStyle="italic|bold"
+        android:text="Day  05" />
+
+    <Button
+        android:id="@+id/btn_day06"
+        android:layout_width="325dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@drawable/shapedrawable6"
+        android:textStyle="italic|bold"
+        android:text="Day  06" />
+
+    <Button
+        android:id="@+id/btn_day07"
+        android:layout_width="325dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@drawable/shapedrawable7"
+        android:textStyle="italic|bold"
+        android:text="Day  07" />
+
+<!--    <TextView-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="20dp"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn"
+                android:background="@drawable/btn_selector1"
+                android:backgroundTint="@color/btn_color_selector1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="20dp"
+                android:text="   Task"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn2"
+                android:background="@drawable/btn_selector4"
+                android:backgroundTint="@color/btn_color_selector1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="20dp"
+                android:text="   Habit"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/btn3"
+        android:background="@drawable/btn_selector2"
+        android:backgroundTint="@color/btn_color_selector1"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="20dp"
+                android:text="   Clock"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+     <Button
+         android:id="@+id/btn4"
+         android:background="@drawable/btn_selector3"
+         android:backgroundTint="@color/btn_color_selector1"
+         android:layout_width="60dp"
+         android:layout_height="50dp"
+         android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="20dp"
+                android:text="    User"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+s
+
+</LinearLayout>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/RelativeLayout1"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:gravity="center">-->
+<!--<Button-->
+<!--    android:id="@+id/button_title"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="50dp"-->
+<!--    android:focusable="true"-->
+<!--    android:focusableInTouchMode="true"-->
+<!--    android:gravity="center"-->
+<!--    android:marqueeRepeatLimit="marquee_forever"-->
+<!--    android:shadowColor="@color/Gray"-->
+<!--    android:shadowDx="6.0"-->
+<!--    android:shadowDy="6.0"-->
+<!--    android:shadowRadius="3.0"-->
+<!--    android:singleLine="true"-->
+<!--    android:text="@string/tv_one"-->
+<!--    android:textColor="@color/teal_700"-->
+<!--    android:textSize="40dp"-->
+<!--    android:textStyle="bold" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/button_day1"-->
+<!--    android:layout_below="@+id/button_title"-->
+<!--    android:layout_width="325dp"-->
+<!--    android:layout_height="64dp"-->
+<!--    android:textSize="30sp"-->
+<!--    android:gravity="center"-->
+<!--    android:background="@drawable/shapedrawable"-->
+<!--    android:textStyle="italic|bold"-->
+<!--    android:text="Day  01" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/button_day2"-->
+<!--    android:layout_below="@+id/button_day1"-->
+<!--    android:layout_width="325dp"-->
+<!--    android:layout_height="64dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:textSize="30sp"-->
+<!--    android:gravity="center"-->
+<!--    android:background="@drawable/shapedrawable2"-->
+<!--    android:textStyle="italic|bold"-->
+<!--    android:text="Day  02" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/button_day3"-->
+<!--    android:layout_below="@+id/button_day2"-->
+<!--    android:layout_width="325dp"-->
+<!--    android:layout_height="64dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:textSize="30sp"-->
+<!--    android:gravity="center"-->
+<!--    android:background="@drawable/shapedrawable3"-->
+<!--    android:textStyle="italic|bold"-->
+<!--    android:text="Day  03" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/button_day4"-->
+<!--    android:layout_below="@+id/button_day3"-->
+<!--    android:layout_width="325dp"-->
+<!--    android:layout_height="64dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:textSize="30sp"-->
+<!--    android:gravity="center"-->
+<!--    android:background="@drawable/shapedrawable4"-->
+<!--    android:textStyle="italic|bold"-->
+<!--    android:text="Day  04" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/button_day5"-->
+<!--    android:layout_below="@+id/button_day4"-->
+<!--    android:layout_width="325dp"-->
+<!--    android:layout_height="64dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:textSize="30sp"-->
+<!--    android:gravity="center"-->
+<!--    android:background="@drawable/shapedrawable5"-->
+<!--    android:textStyle="italic|bold"-->
+<!--    android:text="Day  05" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/button_day6"-->
+<!--    android:layout_below="@+id/button_day5"-->
+<!--    android:layout_width="325dp"-->
+<!--    android:layout_height="64dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:textSize="30sp"-->
+<!--    android:gravity="center"-->
+<!--    android:background="@drawable/shapedrawable6"-->
+<!--    android:textStyle="italic|bold"-->
+<!--    android:text="Day  06" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/button_day7"-->
+<!--    android:layout_below="@+id/button_day6"-->
+<!--    android:layout_width="325dp"-->
+<!--    android:layout_height="64dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:textSize="30sp"-->
+<!--    android:gravity="center"-->
+<!--    android:background="@drawable/shapedrawable7"-->
+<!--    android:textStyle="italic|bold"-->
+<!--    android:text="Day  07" />-->
+<!--<Button-->
+<!--android:id="@+id/btn"-->
+<!--android:text="Task"-->
+<!--android:layout_below="@+id/button_day7"-->
+<!--android:background="@drawable/btn_selector1"-->
+<!--android:backgroundTint="@color/btn_color_selector1"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_alignParentBottom="true"/>-->
+
+<!--<Button-->
+<!--android:id="@+id/btn2"-->
+<!--android:text="Task"-->
+<!--android:background="@drawable/btn_selector1"-->
+<!--android:backgroundTint="@color/btn_color_selector1"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_centerInParent="true"/>-->
+
+<!--</RelativeLayout>-->
+
+
+
+

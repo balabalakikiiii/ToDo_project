@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_usercenter"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#22349C"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="个人中心"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_below="@id/tv_usercenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="#3F51B5">
+                <ImageButton
+                    android:id="@+id/user_img"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/snoopy3" />
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="130dp"
+                    android:textSize="20dp"
+                    android:text="小明"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#eee" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ll_info"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="个人信息"
+                    android:textSize="20dp"
+                    android:src="@drawable/ic_baseline_trending_flat_24"/>
+                <ImageButton
+                    android:id="@+id/ib_user_info"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_baseline_trending_flat_24"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+            <LinearLayout
+                android:id="@+id/ll_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="习惯列表"
+                    android:textSize="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/ib_order_list"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="230dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_baseline_trending_flat_24" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+            <LinearLayout
+                android:id="@+id/ll_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改密码"
+                    android:textSize="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/ib_update_psw"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="230dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_baseline_trending_flat_24" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <LinearLayout
+                android:id="@+id/ll_advice"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="意见反馈"
+                    android:textSize="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/ib_advise"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="230dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_baseline_trending_flat_24" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+            <Button
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="退出账号"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#A3184FF1"
+                android:id="@+id/btn_out"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
